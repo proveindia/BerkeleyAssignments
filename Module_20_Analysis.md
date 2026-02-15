@@ -72,3 +72,7 @@ This plot shows the residuals (Actual - Predicted) vs the Predicted values. A ra
 ### 3. Feature Importance
 Comparison of the top features from the Decision Tree and the top coefficients from the Linear Regression model.
 ![Feature Importance](images/feature_importance.png)
+
+### 4. Combined Model Feature Importance
+This plot consolidates feature importance and coefficients from all models (Decision Tree, Linear, Ridge, KNN, SVR) for the top 15 features identified by the Decision Tree. It highlights how different models prioritize different features.
+![Combined Feature Importance](images/combined_feature_importance.png)
